@@ -132,10 +132,10 @@ if ($text == 'はい') {
 } else {
   $response_format_text = [
     "type" => "template",
-    "altText" => "BtoB bot：聞きたいことあるん？（はい／いいえ）",
+    "altText" => "なんか用あると？教えちゃーよ（はい／いいえ）",
     "template" => [
         "type" => "confirm",
-        "text" => "BBtoB bot：聞きたいことあるん？",
+        "text" => "なんか用あると？教えちゃーよ",
         "actions" => [
             [
               "type" => "message",
